@@ -66,13 +66,18 @@ a,a:link{
 #icon{
     width:100px;
     float:right;
+    font-size:0;
 }
 #icon li{
     display:inline-block;
     opacity:.70;
+    
 }
 #icon li:hover{
     opacity:100;
+}
+#icon li:nth-child(2){
+    margin:0 3px 0 4px;/*7/2 - 3.5px <--->나누어지지 않는 단위*/
 }
 #visual{
     width:630px;
